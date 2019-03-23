@@ -1,0 +1,46 @@
+*{
+    font-family : monospace;
+    }
+    
+body{
+    background-image: url(back.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    margin: 25px;
+}
+
+.page{
+    float: left;
+}
+
+.page h1{color: white;}
+
+ul{
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    color: white;
+    padding: 5px 5px;
+    border: 1px solid white;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%)
+}
